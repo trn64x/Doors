@@ -13,7 +13,9 @@ flex-direction: column;
 }
 .doorframe{
   background-color: #333;
+  background-image:url("th.png");
   position:relative;
+  background-repeat: repeat 3;
   width:200px;
   height:300px;
   
@@ -48,9 +50,13 @@ justify-content: center;
   width:100%;
   transition: 2s ease-in-out
 }
+.info{
+  font-size:20px;
+  width:100%;
+}
 .active{
   
-  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+  transform: perspective(600px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
   
   transition: 0.5s ease-in-out
 }
